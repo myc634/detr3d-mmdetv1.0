@@ -1,5 +1,5 @@
 # DETR3D for mmdet3d-v1.0.0rc5 version
-
+### This repo is cloned from the original repo(https://github.com/WangYueFt/detr3d/).
 This repo contains the implementations of DETR3D (https://arxiv.org/abs/2110.06922). The original DETR3D is released based on mmdet3d-0.17.0 version, however, the mmdet3d reconfigured the coordinate system in version 1.0, which caused problems with some metrics such as mAOE. Refer to issue31(https://github.com/WangYueFt/detr3d/issues/31) we refactored this code and reproduced the results as in the paper.
 
 ### Prerequisite
@@ -23,7 +23,7 @@ This repo contains the implementations of DETR3D (https://arxiv.org/abs/2110.069
 1. Follow the mmdet3d to process the data.
 
 ### Train
-1. Downloads the [pretrained backbone weights](https://drive.google.com/drive/folders/1h5bDg7Oh9hKvkFL-dRhu5-ahrEp2lRNN?usp=sharing) to pretrained/ 
+1. Downloads the [pretrained backbone weights](https://drive.google.com/drive/folders/1h5bDg7Oh9hKvkFL-dRhu5-ahrEp2lRNN?usp=sharing) to pretrained.
 
 2. For example, to train DETR3D on 8 GPUs, please use
 
@@ -64,3 +64,4 @@ If you find this repo useful for your research, please consider citing the paper
    year={2021}
 }
 ```
+
